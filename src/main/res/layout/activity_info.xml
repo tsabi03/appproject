@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:background="@drawable/capture"
+    >
+    <TextView
+
+        android:id="@+id/textViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="false"
+        android:gravity="center"
+        android:text="Info page"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        />
+
+    <TextView
+
+        android:id="@+id/textInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:gravity="center"
+        android:text="info"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="121dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:background="#FF03DAC5"
+        android:enabled="true"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+
+        />
+</RelativeLayout>

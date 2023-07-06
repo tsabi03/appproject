@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gam5</string>
+    <string name="hello_world">Welcome to the Math Game!</string>
+    <string name="action_settings">Settings</string>
+</resources>
